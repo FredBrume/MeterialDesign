@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "835804395853",
+    "firebase_url": "https://schoolapp-11a9d.firebaseio.com",
+    "project_id": "schoolapp-11a9d",
+    "storage_bucket": "schoolapp-11a9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835804395853:android:1806b23ad52ed353",
+        "android_client_info": {
+          "package_name": "com.example.fredbrume.meterialdesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835804395853-e8piig2o27dt9l11bqrpuf2qimq31p16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZYn7YHBKFP877LgJTX_3GRMMmPBVqNus"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

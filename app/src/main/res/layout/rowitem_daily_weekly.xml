@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:elevation="7dp"
+    android:background="@drawable/item_background"
+    android:paddingBottom="16dp">
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/context_layout"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:layout_alignStart="@+id/context_layout">
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:text="Title"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/news_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitle"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:paddingBottom="4dp"
+            android:text="Junior Secondary"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/event_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subtitle"
+            android:layout_toLeftOf="@+id/event_Time"
+            android:layout_toStartOf="@+id/event_Time"
+            android:paddingRight="7dp"
+            android:text="02/06/2017"
+            android:textColor="@android:color/white"
+            android:textIsSelectable="false"
+            android:textSize="14dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/event_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/subtitle"
+            android:layout_marginRight="10dp"
+            android:text="12:00 PM"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:typeface="sans" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/context_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_layout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/attachmentPanel"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/attachment"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/context"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:text="Anything that is there"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:typeface="sans" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_submenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/context_layout"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/download"
+            android:layout_width="@dimen/download_icon_width"
+            android:layout_height="@dimen/download_icon_height"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/ic_action_download_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Download"/>
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="@dimen/share_icon_width"
+            android:layout_height="@dimen/share_icon_height"
+            android:src="@drawable/ic_action_share_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/show_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="14dp"
+            android:text="Show more"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

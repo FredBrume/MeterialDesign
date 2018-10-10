@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MeterialDesign</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Home</string>
+    <string name="close">Home</string>
+    <string name="Press_back_again_to_exit">Press back again to exit</string>
+    <string name="event_alert_daily">Event Alerts - Daily</string>
+    <string name="event_alert_daily_value">"Here's what's happening today"</string>
+    <string name="event_alert_weekly">Event Alerts - Weekly</string>
+    <string name="event_alert_weekly_value">"Here's what's happening this week"</string>
+    <string name="event_general">General</string>
+    <string name="event_not_pinned">Not Pinned</string>
+    <string name="event_pinned">Pinned</string>
+    <string name="share_using">share using</string>
+    <string name="notification_message">"News from %1$s"</string>
+    <string name="No_Assignments">No Assignments</string>
+    <string name="No_Assignments_Set_Up">You dont have any assignments set up. Press + to add a new one!</string>
+    <string name="No_ClassSet_Up">You dont have any classes set up. Press + to add a new one!</string>
+    <string name="No_Classes">No Classes</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDSfSwkalMgMNkgp0LogZNd444SP8YEwE4</string>
+    <string name="google_place_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBxgnDwUXtMXJGec1HbNFi1VqD0CG8tM_k</string>
+    <string name="class_details_saved">Class details saved</string>
+    <string name="DEL_WARNING">Are you sure ?</string>
+    <string name="ok_button">Ok</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="class_details_removed">Class removed from list</string>
+
+</resources>
